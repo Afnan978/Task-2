@@ -1,0 +1,78 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 600px;
+    background-color: #7a8f98;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(115, 112, 112, 0.1);
+  }
+  
+  h1 {
+    font-size: 26px;
+    text-align: center;
+    /* margin-bottom: 20px; */
+    margin-top: -500px;
+    color: white;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .btn-primary {
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fff5ed;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  li span {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  /* Add checkbox styles */
+.form-check-input {
+    margin-right: 10px;
+  }
+  
+  /* Adjust alignment of To-Do items */
+  li {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
